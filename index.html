@@ -1,32 +1,30 @@
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IA Financiera Avanzada</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>📈 IA Financiera Avanzada</h1>
+<main>
+  <h1>📈 IA Financiera Avanzada</h1>
 
-<select id="empresa">
-  <option value="AAPL">Apple</option>
-  <option value="MSFT">Microsoft</option>
-  <option value="GOOGL">Google</option>
-  <option value="AMZN">Amazon</option>
-</select>
+  <select id="empresa">
+    <option value="AAPL">Apple</option>
+    <option value="MSFT">Microsoft</option>
+    <option value="GOOGL">Google</option>
+    <option value="AMZN">Amazon</option>
+  </select>
 
-<button onclick="analizar()">Analizar</button>
+  <button onclick="analizar()">Analizar</button>
 
-<div id="resultado"></div>
-<canvas id="grafica"></canvas>
+  <div id="resultado"></div>
+  <canvas id="grafica"></canvas>
+</main>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="script.js"></script>
-
+<script src="script.js" defer></script>
 </body>
 </html>
-
