@@ -1,12 +1,18 @@
 body {
-  font-family: Arial;
-  background: #111;
+  background: #0f172a;
   color: white;
+  font-family: Arial;
   text-align: center;
   padding: 40px;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 12px 25px;
   font-size: 16px;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
 }
